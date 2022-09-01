@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.all {
+  display: flex;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+body {
+  background-image: url(./assest/image/excuse.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#first{
+   color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
+.now {
+  display: inline-block;
+}
+.bg-nav {
+  background-color: #D92D20;
+  padding: 13px 0px;
+  background-attachment: fixed;
+}
